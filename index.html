@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Jan Tomeček</title>
+</head>
+<body>
+    <main>
+        <div class="nav">
+            <nav>
+                <img src="./img/face2.png" alt="face">
+                <ul>
+                    <li><a href="#home"><span class="icon"><i class="fas fa-home" aria-hidden="true"></i></span><span class="title">Domů</span></a></li>
+                    <li><a href="#education"><span class="icon"><i class="fas fa-graduation-cap" aria-hidden="true"></i></span><span class="title">Vzdělání</span></a></li>
+                    <li><a href="#projects"><span class="icon"><i class="fas fa-file" aria-hidden="true"></i></span><span class="title">Projekty</span></a></li>
+                    <li><a href="#skills"><span class="icon"><i class="fas fa-microchip" aria-hidden="true"></i></span><span class="title">Dovednosti</span></a></li>
+                    <li><input id="themeSwitch" type="checkbox" onclick="ChangeTheme();"><label for="themeSwitch"></label><span class="title">dark mode</span></li>
+                </ul>
+                
+            </nav>
+            <div class="toggleBTN"><i class="fas fa-angle-right"></i></div>
+        </div>
+        
+        <div class="container">
+            <section id="home">
+                <!-- <div class="logo">Jan Tomeček</div> -->
+                <div class="textContainer">
+                    <h1>
+                        <a href="http://www.stud.fit.vutbr.cz/~xtomec09/proj2/index.html">Jan Tomeček</a>
+                    </h1>
+                    <h2>
+                        Absolvent fakulty informačních technologií VUT v Brně
+                    </h2>
+                    <p>
+                        Jsem absolvent, který hledá první pracovní zkušenosti. Práce s mikrokontrolery a senzory mě bavila už před nástupem na vysokou školu. Ve většině případů jsem vytvářel spíše malé projekty, ale během studia jsem pracoval i na větších projektech. Zkušenosti mám s deskami od Arduino, ESP a NXP. Největším projektem byla má diplomová práce, ve které jsem vytvořil podpůrný balík pro vybrané mikrokontrolery od společnosti NXP do vývojového prostředí Arduino IDE.
+                        
+                        <br>
+                        <br>
+                        Umím pracovat v týmu, kromě zkušeností ze školních týmových projektů také 10 let závodně tancuji v týmových kategoriích. Umím vést i tým, několik let jezdím jako hlavní vedoucí na jeden z největších dětských táborů v České Republice, kde mám na starosti tým 25 lidí.
+                    </p>
+                    <div class="socialMedia">
+                        <a href="https://www.instagram.com/tomecek.jan/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://linkedin.com/in/jan-tomecek-a176a8245"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="https://github.com/JohnyT22"><i class="fab fa-github" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <img class="bodySilhouette" src="img/silulette.png" alt="Body silhouette">
+            </section>
+            <section id="education">
+                <div class="textContainer">
+                    <h1>
+                        Vzdělání
+                    </h1>
+                    
+                    <div class="school">
+                        <div class="schoolInfo">
+                            <h2>
+                                Fakulta informačních technologií VUT v Brně
+                            </h2>
+                            <p>
+                                Magisterské studium - Vývoj aplikací
+                                <br>
+                                Diplomová práce - Podpora mikrokontrolerů NXP ve vývojovém prostředí Arduino IDE
+                            </p>
+                        </div>
+                        <h3>
+                            2022 - 2024
+                        </h3>
+                    </div>
+                   
+                    <div class="school">
+                        <div class="schoolInfo">
+                            <h2>
+                                Fakulta informačních technologií VUT v Brně
+                            </h2>
+                            <p>
+                                Bakalářské studium
+                                <br>
+                                Bakalářská práce -- Na simulaci založený vývoj systému řízení distribuce tepla
+                            </p>
+                        </div>
+                        <h3>
+                            2019 - 2022
+                        </h3>
+                    </div>
+                    <div class="school">
+                        <div class="schoolInfo">
+                            <h2>
+                                Gymnázium Olomouc - Hejčín
+                            </h2>
+                            <p>
+                                Angličtina B2
+                            </p>
+                        </div>
+                        <h3>
+                            2015 - 2019
+                        </h3>
+                    </div>
+                </div>
+            </section>
+            <section id="projects">
+                <div class="textContainer">
+                    <h1>Projekty</h1>
+                </div>
+                <div class="projectsScrollContainer">
+                    <i class="fas fa-arrow-left"></i>
+                    <div class="localnav"></div>
+                    <div class="scrollGalery">
+                        <div class="col one">
+                            <h1>Akademie drahové cyklistiky</h1>
+                            <a href="http://akademiedrahovecyklistiky.cz/"><img src="./img/adc_screenshot.png" alt="http://akademiedrahovecyklistiky.cz/"></a>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto est beatae inventore alias sed! Modi ab cumque dolorum reprehenderit voluptate.</p>
+                        </div>
+                        <div class="col two">
+                            <h1>Repellendus et voluptatibus asperiores eum?</h1>
+                            <img src="./img/adc_screenshot.png" alt="http://akademiedrahovecyklistiky.cz/">
+                            <p>Doloribus odio sit animi explicabo ipsum numquam beatae accusantium sapiente. Culpa aspernatur obcaecati quibusdam deleniti ea. Exercitationem, assumenda error. Quam?</p>
+                        </div>
+                        <div class="col tree">
+                            <h1>Temporibus assumenda tenetur quo ipsam.</h1>
+                            <img src="./img/adc_screenshot.png" alt="http://akademiedrahovecyklistiky.cz/">
+                            <p>Veniam optio error blanditiis nemo labore obcaecati commodi eveniet, quasi officiis in aperiam quam unde doloribus vero veritatis ex ab.</p>
+                        </div>
+                        <div class="col four">
+                            <h1>Temporibus assumenda tenetur quo ipsam.</h1>
+                            <img src="./img/adc_screenshot.png" alt="http://akademiedrahovecyklistiky.cz/">
+                            <p>Veniam optio error blanditiis nemo labore obcaecati commodi eveniet, quasi officiis in aperiam quam unde doloribus vero veritatis ex ab.</p>
+                        </div>
+                        <div class="col five">
+                            <h1>Temporibus assumenda tenetur quo ipsam.</h1>
+                            <img src="./img/adc_screenshot.png" alt="http://akademiedrahovecyklistiky.cz/">
+                            <p>Veniam optio error blanditiis nemo labore obcaecati commodi eveniet, quasi officiis in aperiam quam unde doloribus vero veritatis ex ab.</p>
+                        </div>
+                        <div class="col six">
+                            <h1>Temporibus assumenda tenetur quo ipsam.</h1>
+                            <img src="./img/adc_screenshot.png" alt="http://akademiedrahovecyklistiky.cz/">
+                            <p>Veniam optio error blanditiis nemo labore obcaecati commodi eveniet, quasi officiis in aperiam quam unde doloribus vero veritatis ex ab.</p>
+                        </div>
+                        <div class="col seven">
+                            <h1>Temporibus assumenda tenetur quo ipsam.</h1>
+                            <img src="./img/adc_screenshot.png" alt="http://akademiedrahovecyklistiky.cz/">
+                            <p>Veniam optio error blanditiis nemo labore obcaecati commodi eveniet, quasi officiis in aperiam quam unde doloribus vero veritatis ex ab.</p>
+                        </div>
+                    </div>
+                    <i class="fas fa-arrow-right"></i>
+            </div>
+            </section>
+            <section id="skills">
+                <div class="textContainer">
+                    <h1>Dovednosti</h1>
+                    <div class="icons">
+                        <i class="fa-solid fa-c"></i>
+                        <i class="fab fa-python"></i>
+                        <i class="fab fa-js"></i>
+                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-css3"></i>
+                        <i class="fa-brands fa-git"></i>
+                    </div>
+                    <ul>
+                        <li>C, Python, Javascript, HTML, CSS</li>
+                        <li>Git</li>
+                        <li>MCUXpresso, Arduino, Espressif IDF</li>
+                        <li>Angličtina B2, Čeština</li>
+                    </ul>
+                    <p>
+                        Umím pracovat v týmu, kromě zkušeností ze školních týmových projektů také 10 let závodně tancuji v týmových kategoriích. 
+                        Umím vést i tým, několik let jezdím jako hlavní vedoucí na jeden z největších dětských táborů v České Republice, kde mám na starosti tým 25 lidí.
+                    </p>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container"></div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/projects.js"></script>
+</body>
+</html>
